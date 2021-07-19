@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link
+      rel="icon"
+      type="img.png"
+      href=" https://www.google.com/s2/favicons?domain=css-tricks.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100;400;700;900&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+          } else {
+            $(".item").addClass("active");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">Welcome</a></li>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#about"> About Me</a></li>
+        <li class="item"><a href="#projects">Projects</a></li>
+        <li class="item"><a href="#contact">Contact Me</a></li>
+        <li class="toggle">
+          <span class="bars"></span>
+        </li>
+      </ul>
+    </nav>
+    <!-- Welcome message -->
+
+    <div class="intro-container">
+      <h1 class="intro-message">Hello, my name is Tony.</h1>
+      <p class="subtitle">Welcome to my website!</p>
+    </div>
+
+    <div id="about" class="about-me-container" >
+      <div class="about-heading">
+        <h2>This is me!</h1>
+      </div>
+      <div class="about-sub-heading">
+        <h3>Full Stack Engineer</h2>
+      </div>
+      <div class="image-about">
+        <img src="/image/pokemon-me.png" alt="photo-of-me" />
+        <p class="about-paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid autem,
+          id laborum temporibus saepe ab nostrum, blanditiis officiis distinctio
+          pariatur voluptate dignissimos cupiditate reprehenderit eveniet beatae
+          
+        </p>
+        <p class="about-paragraph-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus quia facere tempora unde debitis natus exercitationem, quod illo doloribus eligendi sint minus in, nihil iure! Impedit eius nobis porro?
+        </p>
+      </div>
+      
+    </div>
+
+    <!-- Project card section  -->
+    <div id="projects" class="project-section">
+    <h4 class="project-heading">Projects</h4>
+    <div  class="project-card">
+      
+      <div class="card-image">
+        <img src="/image/cool-thunder.jpeg" alt="">
+      </div>
+      <div class="project-card-info">
+        <div class="project-card-date">
+          <span>Today</span>
+          <span>May 22 2020</span>
+        </div>
+        <h4 class="project-card-title">
+          Project title
+        </h4>
+        <p class="project-card-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi explicabo praesentium, ipsam hic, deserunt rem ratione mollitia, exercitationem aliquid incidunt laudantium provident libero delectus amet quas odit placeat accusantium corporis.
+        </p>
+        <a href="#" class="project-card-link">
+          <i class="fas fa-globe"></i>
+          Demo</a>
+        <a href="#" class="project-card-link">
+          <i class="fab fa-github"></i>
+          GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="card-image">
+        <img src="/image/cool-thunder.jpeg" alt="">
+      </div>
+      <div class="project-card-info">
+        <div class="project-card-date">
+          <span>Today</span>
+          <span>May 22 2020</span>
+        </div>
+        <h4 class="project-card-title">
+          Project title
+        </h4>
+        <p class="project-card-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi explicabo praesentium, ipsam hic, deserunt rem ratione mollitia, exercitationem aliquid incidunt laudantium provident libero delectus amet quas odit placeat accusantium corporis.
+        </p>
+        <a href="#" class="project-card-link">
+          <i class="fas fa-globe"></i>
+          Demo
+        </a>
+        <a href="#" class="project-card-link">
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact-container">
+    <h2 class="contact-heading">Connect with me</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo qui quis, quidem eveniet similique, repellat hic maxime molestias ullam voluptas autem natus harum illum doloremque veritatis sunt. Rem, facere odit.</p>
+    <div class="contact-box">
+      <div class="contact-left">
+        <h3 class="contact-sub">Sent Your request</h3>
+        <form action="https://formsubmit.co/tonybherrera@gmail.com" method="POST"> 
+          <div class="input-row">
+            <!-- <div class="input-group">
+              <label>Phone</label>
+              <input type="text" placeholder="">
+            </div> -->
+            <!-- <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="">
+            </div> -->
+          </div>
+          <div class="input-row">
+            <div class="input-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-group">
+              <label>Subject</label>
+              <input type="text" name="_subject" placeholder="">
+            </div>
+          </div>
+          <label>Message</label>
+          <textarea name="message" rows="10" placeholder="Your Message"></textarea>
+          <button class="form-button" type="submit">Send</button>
+          
+          
+        
+            
+
+
+        </form>
+      </div>
+      <div class="contact-right">
+        <h3 class="contact-right-sub">reach us</h3>
+        <table>
+          <tr>
+            <td>Email</td>
+            <td>Tonybherrera@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>(801)989-6229</td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td>Layton, Utah
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+    <script> ScrollReveal().reveal(".about-me-container",{delay: 200, reset: true});</script>
+    <script> ScrollReveal().reveal(".project-section", { delay: 300, reset: true});</script>
+    
+  </body>
+</html>
