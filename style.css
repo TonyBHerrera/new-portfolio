@@ -151,6 +151,11 @@ h1::after {
 .about-me-container {
   font-family: Montserrat, sans-serif;
   background-image: url(image/pokemon-forest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixedß;
+
   /* height: 100vh; */
   padding: 6rem 1rem;
   margin-top: 7rem;
