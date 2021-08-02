@@ -223,7 +223,42 @@ h1::after {
   color: white;
   line-height: 2.5rem;
 }
+/* SKILLS  */
+.skills-container {
+  margin: 3rem;
+}
 
+.skills-icons {
+  font-size: 100px;
+  padding-top: 1rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-html5 {
+  color: #387be1;
+}
+
+.fa-css3-alt {
+  color: #ff8003;
+}
+
+.fa-js-square {
+  color: #f7df1e;
+}
+
+.skills-icons i {
+  padding: 2rem;
+}
+.python-img {
+  width: 100px;
+  height: 100px;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
 /* Project card section  */
 .project-section {
   font-family: Montserrat, sans-serif;
@@ -315,6 +350,8 @@ h1::after {
   font-size: 1.4rem;
   color: whitesmoke;
 }
+/* .project-links {
+} */
 
 .project-card-link {
   display: inline-block;
